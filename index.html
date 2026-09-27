@@ -51,9 +51,12 @@ canvas{
 }
 
 #area-video {
- position: relative;
+ position: absolute;
  width: min(100vw, calc(95vh * 480 / 854));
  aspect-ratio: 480 / 854;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
 }
 
 #video-vitoria {
@@ -105,7 +108,7 @@ canvas{
 </div>
 
 <script>
-const QtddVisitas = 3;
+const QtddVisitas = 2;
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 const contador = document.getElementById("contador");

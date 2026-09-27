@@ -85,20 +85,21 @@ canvas{
 </audio>
 
 <div id="container-video">
- <video id="video-vitoria" width="480" height="854">
-  <source src="Convite Teste.mp4" type="video/mp4">
-  Seu navegador não suporta vídeos em HTML5.
- </video>
- <!-- Área transparente do Google Maps -->
+ <div id="area-video">
+  <video id="video-vitoria" width="480" height="854">
+   <source src="Convite 2609262004.mp4" type="video/mp4">
+   Seu navegador não suporta vídeos em HTML5.
+  </video>
   <a
    id="link-mapa"
    href="https://www.google.com/maps/dir/?api=1&destination=Rua%20da%20Torre%2C%2013%2C%20Franco%20da%20Rocha%2C%20SP"
    target="_blank"
   ></a>
+ </div>
 </div>
 
 <script>
-const QtddVisitas = 2;
+const QtddVisitas = 1;
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 const contador = document.getElementById("contador");

@@ -46,7 +46,7 @@ canvas{
  inset: 0;
  width: 100vw;
  height: 95vh;
- background: black;
+ background: #3f7d32;
  z-index: 100;
 }
 
@@ -73,7 +73,7 @@ canvas{
     width: 50%;
     height: 5.42%;
     z-index: 101;
-    background: rgba(255, 0, 0, 0.4);
+    background: transparent;
 }
 
 </style>
@@ -96,7 +96,7 @@ canvas{
 <div id="container-video">
  <div id="area-video">
   <video id="video-vitoria" width="480" height="854">
-   <source src="Convite 2609262004.mp4" type="video/mp4">
+   <source src="Convite Teste.mp4" type="video/mp4">
    Seu navegador não suporta vídeos em HTML5.
   </video>
   <a
@@ -108,7 +108,7 @@ canvas{
 </div>
 
 <script>
-const QtddVisitas = 1;
+const QtddVisitas = 5;
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 const contador = document.getElementById("contador");
